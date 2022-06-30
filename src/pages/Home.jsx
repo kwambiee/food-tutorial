@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 import Popular from "../components/popular";
 import Veggie from "../components/veggie";
 
 function Home() {
   return (
     <div>
-        <Popular />
-        <Veggie />
+      <Veggie />
+      <Popular />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

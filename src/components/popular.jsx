@@ -30,7 +30,7 @@ function Popular() {
   return (
     <div>
       <Wrapper>
-        <h4>Popular Picks</h4>
+        <h3>Popular Picks</h3>
         <Splide
           options={{
             type: "loop",

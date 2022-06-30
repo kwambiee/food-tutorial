@@ -19,7 +19,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-h4{
+h3{
   font-size: 1rem;
+  color: rgb(56, 56, 56);
+  margin: 2rem 0;
+  line-height: 2.5rem;
+}
+a{
   color: rgb(56, 56, 56);
 }

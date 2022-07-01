@@ -15,7 +15,6 @@ function Popular() {
     const data = JSON.parse(check);
 
     if (check) {
-      console.log(data);
       setPopular(data);
     } else {
       const api = await fetch(
@@ -33,7 +32,6 @@ function Popular() {
         <h3>Popular Picks</h3>
         <Splide
           options={{
-            type: "loop",
             perPage: 4,
             arrows: true,
             pagination: false,
@@ -61,7 +59,7 @@ const Wrapper = styled.div`
 `;
 
 const Card = styled.div`
-  min-height: 25rem;
+  min-height: 15rem;
   border-radius: 2rem;
   overflow: hidden;
   position: relative;

@@ -15,7 +15,6 @@ function Veggie() {
     const data = JSON.parse(check);
 
     if (check) {
-      console.log(data);
       setVeggie(data);
     } else {
       const api = await fetch(
@@ -37,7 +36,7 @@ function Veggie() {
             arrows: true,
             pagination: false,
             drag: "free",
-            gap: "5rem",
+            gap: "3rem",
           }}
         >
           {veggie.map((recipe) => (
@@ -60,7 +59,7 @@ const Wrapper = styled.div`
 `;
 
 const Card = styled.div`
-  min-height: 25rem;
+  min-height: 15rem;
   border-radius: 2rem;
   overflow: hidden;
   position: relative;
